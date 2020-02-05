@@ -9,11 +9,7 @@ jobs:
     
     steps: 
     - uses: actions/checkout@v2
-    - name: echoTest
-      run: echo "Nu testar vi koden"
-    - name: FailTest
-      run: 
-    - name: FailTest1
-      run: 
+    - name: gccTest
+      run: gcc -o HelloWorld HelloWorld.c
  #   - name: make distcheck
  #     run: make distcheck
